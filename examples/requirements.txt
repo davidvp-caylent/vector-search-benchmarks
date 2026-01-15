@@ -1,0 +1,22 @@
+# Core dependencies
+numpy>=1.24.0
+pandas>=2.0.0
+tqdm>=4.65.0
+
+# Embedding models
+sentence-transformers>=2.2.0
+
+# pgvector
+psycopg2-binary>=2.9.0
+
+# OpenSearch
+opensearch-py>=2.4.0
+
+# AWS (for S3 Vectors and Bedrock)
+boto3>=1.34.0
+
+# Optional: AWS auth for OpenSearch Service
+requests-aws4auth>=1.2.0
+
+# Optional: Visualization
+matplotlib>=3.7.0
